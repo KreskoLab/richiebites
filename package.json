@@ -1,0 +1,32 @@
+{
+  "name": "richiebites",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev:nuxt": "cd nuxt && nuxt dev",
+    "dev:strapi": "cd strapi && strapi develop",
+    "start:nuxt": "cd nuxt && nuxt preview",
+    "start:strapi": "cd strapi && strapi start",
+    "build:nuxt": "cd nuxt && nuxt build",
+    "build:strapi": "cd strapi && strapi build"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.6",
+    "nuxt-windicss": "^2.5.0"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.3.0",
+    "@strapi/plugin-users-permissions": "4.3.0",
+    "@strapi/strapi": "4.3.0",
+    "better-sqlite3": "7.4.6"
+  },
+  "strapi": {
+    "uuid": "b80e61a8-c5fe-414a-8536-fb8ab0ac5cd1"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
